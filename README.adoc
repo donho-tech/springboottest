@@ -1,0 +1,14 @@
+= Spring Test Demo Application
+
+This project shows my personal preferences of how to test SpringBoot applications.
+
+Run it by starting a postgres container and start the application.
+
+.Start postgres container
+[source,bash]
+----
+docker run --name postgres -e POSTGRES_PASSWORD=test -p 5432:5432 postgres
+----
+
+== Documentation
+link:docs/tests.adoc[How to write tests]

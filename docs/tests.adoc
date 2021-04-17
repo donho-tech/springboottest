@@ -1,0 +1,9 @@
+= How to write tests
+
+== Test goals
+* Avoid regression errors
+* Document API usage
+* Test the important stuff
+* Avoid testing for coverage
+
+
